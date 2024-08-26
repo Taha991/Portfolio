@@ -2,13 +2,15 @@
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+"scripts": {
   "dev": "next dev",
   "build": "next build",
   "export": "next export",
-  "deploy": "next build && next export && gh-pages -d out"
+  "deploy": "gh-pages -d out"
 }
 ,
+"homepage": "https://Taha991.github.io/Portfolio",
+
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "@react-three/drei": "^9.105.6",
@@ -19,7 +21,7 @@
     "eslint-config-next": "13.4.15",
     "framer-motion": "^10.16.1",
     "maath": "^0.10.7",
-    "next": "^13.4.15",
+    "next": "^14.2.6",
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-animated-numbers": "^0.16.0",
